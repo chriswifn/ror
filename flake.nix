@@ -1,6 +1,6 @@
 {
   description = "Run or Raise for Hyprland";
-  inputs.nixpkgs.url = "github.com/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   outputs = { self, nixpkgs }:
     let
       system = "x86_64-linux";
