@@ -15,3 +15,8 @@ ror <cmd> <class>
    in the list of windows, focus that window.
 3. If there are multiple instances of the specified window
    `class` cycle between them.
+   
+## Installation
+1. Using Go: clone the repository and use `go install`
+2. Using flake: Add the flake to the inputs section.
+   Install the package as `inputs.ror.packages.${pkgs.system}.default`.
